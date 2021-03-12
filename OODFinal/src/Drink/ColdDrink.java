@@ -11,14 +11,14 @@ public abstract class ColdDrink implements Drink {
 
 
     private void openADrink() {
-        System.out.println("I am opening your cold drink now... :) ") ;
+        System.out.println(" :I am opening your cold drink now... :) ") ;
     }
 
     private void serveADrink() {
-        System.out.println("Here is your cold drink.");
+        System.out.println(" :Here is your cold drink.");
     }
     public void putIceInDrink(){
-        System.out.println("We are putting some ice into your drink");
+        System.out.println(" :We are putting some ice into your drink");
     }
     
     public String iceOption(){

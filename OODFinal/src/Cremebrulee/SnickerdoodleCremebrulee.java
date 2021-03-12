@@ -8,7 +8,7 @@ public class SnickerdoodleCremebrulee extends Cremebrulee{
         return 5.5;
     }
     public SnickerdoodleCremebrulee(){
-        description = "Snicker Doodle Cremebrulee";
+        description = "Snicker Doodle Cremebrulee \n";
     }
 
 }

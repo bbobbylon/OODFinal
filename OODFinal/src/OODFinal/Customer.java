@@ -198,14 +198,14 @@ public class Customer
 						break;
 					}
 				}
-				
+				System.out.println("******************************");
 				System.out.println("We are now done with adding fruit topppings. Let's add more! \n");
 				Scanner confectioneryScanner = new Scanner(System.in);
 				//confectionaires menu 
 				for (int i = 0; i < 5; i++)
 				{
 					System.out.println("Confectioneries next! \n"
-							+"(press the number next to the topping to add it)"
+							+"(press the number next to the topping to add it) \n"
 							+ "1. Caramel : $0.75 \n"
 							+ "2. Coconut Shavings : $1.00 \n"
 							+ "3. Colored Sprinkles: $0.75 \n"
@@ -249,13 +249,14 @@ public class Customer
 						break;
 					}
 				} 
+				System.out.println("******************************");
 				System.out.println("We are done selecting Confectioneries \n");
 			
 				Scanner snacksScanner = new Scanner(System.in);
 				for (int i=0; i < 4; i ++)
 				{
 					System.out.println("Lets add Snacks and Candies now! \n"
-							+"(enter the number next to the topping to select it)"
+							+"(enter the number next to the topping to select it) \n"
 							+ "1. Cookie Dough : $1.25 \n"
 							+ "2. Gummi Bears : $0.75\n"
 							+ "3. Oreos : $0.50 \n"
@@ -315,6 +316,7 @@ public class Customer
 				ArrayList<String> cFruitList = new ArrayList<>();
 				while(true)
 				{
+					System.out.println("******************************");
 					System.out.println("What kind of Cremebrulee would you like? \n"
 							+ "(S)alted Caramel : $5.50 \n"
 							+ "S(n)ickerdoodle : $5.50 \n"
@@ -351,7 +353,7 @@ public class Customer
 						continue;
 					}
 				}
-				
+				System.out.println("******************************");
 				System.out.println("Let's add fruit toppings!!!! \n");
 				Scanner cFScanner = new Scanner(System.in);
 				for (int i = 0; i < 3; i++)
@@ -383,7 +385,7 @@ public class Customer
 						break;
 					}
 				}
-				
+				System.out.println("******************************");
 				System.out.println("Done with fruit toppings on your Cremebrulee! \n");
 				
 				Scanner oScanner = new Scanner(System.in);
@@ -443,8 +445,7 @@ public class Customer
 							+ "16. Root Beer : $1.00 \n"
 							+ "17. Sierra Mist : $1.00 \n"
 							+ "18. Sprite : $1.00 \n"
-							+ "19. Tea : $1.75 \n"
-							+ "20. I am done selecting my drink.");
+							+ "19. Tea : $1.75 \n");
 					int drinkChoice = drinkScanner.nextInt();
 					if (drinkChoice == 1)
 					{

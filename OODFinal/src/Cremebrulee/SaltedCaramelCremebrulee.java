@@ -8,7 +8,7 @@ public class SaltedCaramelCremebrulee extends Cremebrulee {
         return 5.5 ;
     }
     public SaltedCaramelCremebrulee(){
-        description = "Salted Caramel Creme brulee";
+        description = "Salted Caramel Cremebrulee \n";
     }
     
 }

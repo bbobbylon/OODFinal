@@ -23,11 +23,11 @@ public abstract class HotDrink implements Drink {
     }
 
     private void serveADrink() {
-        System.out.println("Serving your drink...");
+        System.out.println(" :Serving your drink...");
     }
 
     private void boilWater() {
-        System.out.println("Boiling some water...");
+        System.out.println(" :Boiling some water...");
     }
     
 }
